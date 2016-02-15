@@ -30,8 +30,10 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #212121;
+  /*The color of the pattern is #444646
   background-color: #444646;
-  /*background-image: url(images/stretched-box.png); */
+  background-image: url(images/stretched-box.png); */
   background-position: 50% 50%;
 }
 
