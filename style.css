@@ -133,5 +133,6 @@ footer {
 }
 
 .contact-icons img {
-  width: 30%;
+  width: 50%;
+  padding-top: 100px;
 }
