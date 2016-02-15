@@ -1,3 +1,4 @@
+/*CF clear http://nicolasgallagher.com/micro-clearfix-hack/*/
 .cf:before,
 .cf:after {
     content: " "; /* 1 */
@@ -16,6 +17,7 @@
     *zoom: 1;
 }
 
+/*Make things centered*/
 .horizontal {
   display: flex;
   justify-content: center;
