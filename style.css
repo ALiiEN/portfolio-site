@@ -113,6 +113,23 @@ a {
   font-size: 20px;
 }
 
+/*.nav-links {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  float: right;
+  position: absolute;
+  top: 0px;
+  right: 0;
+}*/
+
 .portfolio-section {
 
 }
