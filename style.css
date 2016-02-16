@@ -32,7 +32,8 @@
 
 /*Drop down menu*/
 .dropdown {
-  position: absolute;
+  /*position: absolute;   --First example*/
+  position: relative;
   display: inline-block;
 }
 
@@ -42,13 +43,39 @@
   background-color: #f9f9f9
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 12px 16px;
-  z-index: 1;
+  /*padding: 12px 16px;
+  z-index: 1;                     --First example*/
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+/*Drop down menu v2*/
+.dropbtn {
+  /*background-color: #4CAF50;  --from example*/
+  color: #fff;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropbtn {
+  /*background-color: #3e8e41;  --from example*/
+  border: 1px solid #fff;
+}
+
 
 body {
   padding: 0;
@@ -100,7 +127,7 @@ nav {
   right: 0;
 }
 
-a {
+.nav-link {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   padding-left: 10px;
@@ -113,22 +140,9 @@ a {
   font-size: 20px;
 }
 
-/*.nav-links {
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  padding-left: 10px;
-  padding-right: 10px;
-  display: inline-block;
-  text-align: center;
-  color: #fff;
-  margin-top: 20px;
-  margin-right: 20px;
-  font-size: 20px;
-  float: right;
-  position: absolute;
-  top: 0px;
-  right: 0;
-}*/
+.nav-link a {
+
+}
 
 .portfolio-section {
 
