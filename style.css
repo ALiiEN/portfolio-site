@@ -37,6 +37,7 @@
   display: inline-block;
 }
 
+/*Dropdown menu link styles*/
 .dropdown .dropdown-content a {
   color: white;
   font-family: 'Open Sans', sans-serif;
