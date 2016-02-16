@@ -33,8 +33,13 @@
 /*Drop down menu*/
 .dropdown {
   /*position: absolute;   --First example*/
-  position: relative;
+  /*position: relative; Taking this off Made the words not wrap*/
   display: inline-block;
+}
+
+.dropdown .dropdown-content a {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .dropdown-content {
