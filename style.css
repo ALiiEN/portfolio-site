@@ -17,6 +17,7 @@
     *zoom: 1;
 }
 
+
 /*Make things centered*/
 .horizontal {
   display: flex;
@@ -25,8 +26,60 @@
 
 .vertical {
   display: flex;
-  /*flex-direction: column;*/
   justify-content: center;
+}
+
+
+/*Drop down menu*/
+.dropdown {
+  /*position: absolute;   --First example*/
+  /*position: relative; Taking this off Made the words not wrap*/
+  display: inline-block;
+}
+
+/*Dropdown menu link styles*/
+.dropdown .dropdown-content a {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  /*padding: 12px 16px;
+  z-index: 1;                     --First example*/
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/*Drop down menu v2*/
+.dropbtn {
+  /*background-color: #4CAF50;  --from example*/
+  color: #fff;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropbtn {
+  /*background-color: #3e8e41;  --from example*/
+  /*border: 1px solid #fff;*/
 }
 
 body {
@@ -79,7 +132,7 @@ nav {
   right: 0;
 }
 
-a {
+.nav-link {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   padding-left: 10px;
@@ -90,10 +143,6 @@ a {
   margin-top: 20px;
   margin-right: 20px;
   font-size: 20px;
-}
-
-.portfolio-section {
-
 }
 
 .portfolio-item {
